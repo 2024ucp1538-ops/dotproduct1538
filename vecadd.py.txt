@@ -1,9 +1,0 @@
-# vecadd.py
-def vector_add(a, b):
-    return [x + y for x, y in zip(a, b)]
-
-if __name__ == "__main__":
-    v1 = [1, 2, 3]
-    v2 = [4, 5, 6]
-    result = vector_add(v1, v2)
-    print("Vector Addition Result:", result)
